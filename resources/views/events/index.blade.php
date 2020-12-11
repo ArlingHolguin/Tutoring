@@ -15,11 +15,9 @@
 <link rel="stylesheet" href="{{asset('fullcalendar/timegrid/main.css')}}">
 <link rel="stylesheet" href="{{asset('libs/toastr/css/main.css')}}">
 <style>
-    
-    .fc-row fc-widget-header {
-        color: red;
-        background: blueviolet;
-     } 
+    .fc-today {
+    background: #bbe7a6 !important;
+}
 </style>
 
 @endsection
